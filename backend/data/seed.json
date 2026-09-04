@@ -1,0 +1,143 @@
+{
+  "categories": [
+    {
+      "id": "home",
+      "name": "Home Services",
+      "description": "Repairs, cleaning, electrical, plumbing, and routine maintenance.",
+      "subcategories": [
+        {
+          "id": "plumbing",
+          "name": "Plumbing",
+          "services": [
+            { "id": "pipe-repair", "name": "Pipe Repair" },
+            { "id": "tap-installation", "name": "Tap Installation" },
+            { "id": "tank-cleaning", "name": "Water Tank Cleaning" }
+          ]
+        },
+        {
+          "id": "electrical",
+          "name": "Electrical",
+          "services": [
+            { "id": "fan-installation", "name": "Fan Installation" },
+            { "id": "wiring", "name": "Wiring" },
+            { "id": "switch-repair", "name": "Switch Repair" }
+          ]
+        },
+        {
+          "id": "cleaning",
+          "name": "Cleaning",
+          "services": [
+            { "id": "deep-cleaning", "name": "Deep Cleaning" },
+            { "id": "sofa-cleaning", "name": "Sofa Cleaning" },
+            { "id": "bathroom-cleaning", "name": "Bathroom Cleaning" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "Beauty & Wellness",
+      "description": "Personal grooming, salon, spa, and wellness services.",
+      "subcategories": [
+        {
+          "id": "salon",
+          "name": "Salon",
+          "services": [
+            { "id": "haircut", "name": "Haircut" },
+            { "id": "facial", "name": "Facial" },
+            { "id": "makeup", "name": "Makeup" }
+          ]
+        },
+        {
+          "id": "wellness",
+          "name": "Wellness",
+          "services": [
+            { "id": "yoga", "name": "Yoga Session" },
+            { "id": "massage", "name": "Massage Therapy" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "automotive",
+      "name": "Automotive",
+      "description": "Vehicle cleaning, repair, inspection, and roadside support.",
+      "subcategories": [
+        {
+          "id": "bike-service",
+          "name": "Bike Service",
+          "services": [
+            { "id": "oil-change", "name": "Oil Change" },
+            { "id": "general-checkup", "name": "General Checkup" }
+          ]
+        },
+        {
+          "id": "car-care",
+          "name": "Car Care",
+          "services": [
+            { "id": "car-wash", "name": "Car Wash" },
+            { "id": "detailing", "name": "Interior Detailing" }
+          ]
+        }
+      ]
+    }
+  ],
+  "plans": [
+    {
+      "id": "basic",
+      "name": "Basic",
+      "description": "For solo vendors starting with a focused service list.",
+      "price": 999,
+      "currency": "INR",
+      "durationDays": 30,
+      "features": ["5 services", "Vendor profile", "Basic visibility"],
+      "active": true
+    },
+    {
+      "id": "growth",
+      "name": "Growth",
+      "description": "For teams that need broader visibility and more services.",
+      "price": 1999,
+      "currency": "INR",
+      "durationDays": 30,
+      "features": ["Unlimited services", "Higher visibility", "Priority leads"],
+      "active": true
+    },
+    {
+      "id": "premium",
+      "name": "Premium",
+      "description": "For established businesses that want featured placement.",
+      "price": 3499,
+      "currency": "INR",
+      "durationDays": 30,
+      "features": ["Featured profile", "Unlimited services", "Dedicated support"],
+      "active": true
+    }
+  ],
+  "addresses": [
+    {
+      "id": "hyd-madhapur",
+      "label": "Madhapur, Hyderabad, Telangana 500081",
+      "fullAddress": "Madhapur Main Road, Hyderabad, Telangana 500081",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "pincode": "500081"
+    },
+    {
+      "id": "blr-indiranagar",
+      "label": "Indiranagar, Bengaluru, Karnataka 560038",
+      "fullAddress": "100 Feet Road, Indiranagar, Bengaluru, Karnataka 560038",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "pincode": "560038"
+    },
+    {
+      "id": "del-saket",
+      "label": "Saket, New Delhi, Delhi 110017",
+      "fullAddress": "Saket District Centre, New Delhi, Delhi 110017",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "pincode": "110017"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+.DS_Store
+backend/data/db.json
+backend/uploads/*
+!backend/uploads/.gitkeep
+frontend/.dart_tool/
+frontend/build/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/pubspec.lock
+_removed_platforms/
+frontend/android/build/
+frontend/android/.kotlin/
+frontend/android/local.properties
