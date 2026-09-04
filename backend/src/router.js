@@ -1,17 +1,15 @@
 import { createReadStream, existsSync } from 'node:fs';
 import { mkdir, writeFile } from 'node:fs/promises';
-import { basename, dirname, extname, join } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { basename, extname, join } from 'node:path';
 
 import { json, parseBody } from './http.js';
 import { requireVendor } from './session.js';
-import { readDb, writeDb } from './store.js';
+import { readDb, uploadsDir, writeDb } from './store.js';
 import { blankVendor, dashboard, makeId } from './vendor.js';
 
-const rootDir = dirname(dirname(fileURLToPath(import.meta.url)));
-const uploadsDir = join(rootDir, 'uploads');
 const devOtp = '123456';
 const otpTtlMs = 5 * 60 * 1000;
+
 
 const mimeByExt = {
   '.jpg': 'image/jpeg',

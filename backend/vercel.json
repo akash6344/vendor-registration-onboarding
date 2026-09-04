@@ -1,0 +1,15 @@
+{
+  "services": {
+    "web": {
+      "root": ".",
+      "entrypoint": "server.js",
+      "framework": "node"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": { "service": "web" }
+    }
+  ]
+}
